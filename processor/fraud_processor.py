@@ -2,8 +2,11 @@ import faust
 
 app = faust.App(
     'fraud-detector',
-    broker='kafka://localhost:9092',
+    broker='kafka://localhost:29092',
+    store='memory://'
 )
+
+
 
 class Transaction(faust.Record):
     user_id: int
