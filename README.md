@@ -39,7 +39,7 @@ The system includes:
 
 ---
 
-## 🧾 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |----------|------------|
@@ -52,7 +52,7 @@ The system includes:
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 - fraud-detection/
 - │
@@ -74,21 +74,21 @@ The system includes:
 
 ---
 
-## 🧪 Fraud Detection Logic
+##  Fraud Detection Logic
 
-### ✅ Rule 1 — High-Value Transaction
+###  Rule 1 — High-Value Transaction
 Triggers an alert when:
 amount > 700
 
 
-### ✅ Rule 2 — Rapid Transactions
+###  Rule 2 — Rapid Transactions
 Triggers an alert if the user performs **3 transactions within the last 5 events**.
 
 ---
 
-## 🐳 Running the System
+##  Running the System
 
-### 1️⃣ Start Kafka Cluster
+### Start Kafka Cluster
 ```bash
 docker compose up -d
 Kafka → localhost:29092
@@ -98,4 +98,5 @@ Kafka Connect → http://localhost:8083
 
 ---
 
+---
 
